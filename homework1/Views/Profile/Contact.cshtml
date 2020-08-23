@@ -1,0 +1,49 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+<div class="container-fluid" style="max-width: 1200px;">
+    <h1>@ViewData["Title"] Me</h1>
+    <ul class="list-unstyled">
+        <li class="media">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope mr-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+            </svg>
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">@ViewData["ti1"]</h5>
+                <a href="https://mail.google.com">@ViewData["name1"]</a>
+            </div>
+        </li>
+        <li class="media my-4">
+             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-circle mr-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.468 12.37C12.758 11.226 11.195 10 8 10s-4.757 1.225-5.468 2.37A6.987 6.987 0 0 0 8 15a6.987 6.987 0 0 0 5.468-2.63z" />
+                <path fill-rule="evenodd" d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                <path fill-rule="evenodd" d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8z" />
+            </svg>
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">@ViewData["ti2"]</h5>
+                <a href="https://www.facebook.com/fai665">@ViewData["name2"]</a>
+            </div>
+        </li>
+        <li class="media">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill mr-3" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z" />
+            </svg>
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">@ViewData["ti3"]</h5>
+                <a href="tel:0643956141">@ViewData["name3"]</a>
+            </div>
+        </li>
+    </ul>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Your Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1">Type message to me</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

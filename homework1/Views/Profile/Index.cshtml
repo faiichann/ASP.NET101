@@ -1,0 +1,89 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container-fluid" style="max-width: 1200px;">
+    <div class="row">
+        <div class="col-8" style="align-items: center;display: flex;">
+            <blockquote class="blockquote text-center">
+                <p class="mb-0 display-4">Hello,</p>
+                <p class="mb-0 display-4">My name is faiichann.</p>
+                <p class="mb-0 display-4"> I'm Software Developer</p>
+                <footer class="blockquote-footer">@ViewData["Name"] <cite title="Source Title">@ViewData["Idnum"]</cite></footer>
+            </blockquote>
+        </div>
+        <div class="col-4">
+            <div class="text-center">
+                <img style="width: 600px; height: 500px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" src="~/img/me.jpg" class="rounded img-fluid" />
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" style="margin-top:50px; ">
+    <h1 class="display-4" style="text-align:center">This is My work Let see it!!!!!</h1>
+    <div class="row justify-content-between"  style="margin-top:50px;">
+        <div class="col-6">
+            <div class="card" style="width: 400px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <img src="~/img/multi.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@ViewData["work1"] </h5>
+                    <p class="card-text">Multicamp 19 Project ,I did website for application to camp and follow the news of multimedia.</p>
+                    <a href="http://www.project.fiet-kmutt.com/multicamp/home.html" class="card-link">www.multicamp19.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card" style="width: 400px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <img src="~/img/kmutt.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@ViewData["work4"]</h5>
+                    <p class="card-text">I am @ViewData["work4"] of KMUTT, Who want to create website , design another can talk to me.</p>
+                    <a href="https://bangmodlife.com/" class="card-link">www.bangmodlife.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-between" style="margin-top:50px;">
+        <div class="col-6">
+            <div class="card" style="width: 400px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <img src="~/img/cets.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@ViewData["work2"]</h5>
+                    <p class="card-text">I am Software Developer of ETS KMUTT, help to support new website for student. I work for  1-2 years.</p>
+                    <a href="https://www.4lifelonglearning.org/" class="card-link">www.4lifelonglearning.org</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card" style="width: 400px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <img src="~/img/ets2.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@ViewData["work2"]</h5>
+                    <p class="card-text">I build model for MC website and support frontend to make a function and fix bug. Now I am Freelance of ETS.</p>
+                    <a href="https://ets.kmutt.ac.th/" class="card-link">www.ets.kmutt.ac.th</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-between" style="margin-top:50px;">
+        <div class="col-6">
+            <div class="card" style="width: 400px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <img src="~/img/appman.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@ViewData["work3"]</h5>
+                    <p class="card-text">I am a internship 2020 of appman, I work for 2 month about frontend developer. I did website responsive Mobile app for android and IOS.</p>
+                    <a href="#" class="card-link">In demo</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card" style="width: 400px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+                <img src="~/img/intern.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@ViewData["work3"]</h5>
+                    <p class="card-text">I have worked in agentmate project, Application for sale and buy insurance.It coorperation with meaungthai life.</p>
+                    <a href="#" class="card-link">In demo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
